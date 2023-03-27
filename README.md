@@ -1,0 +1,2 @@
+# Handwriting Decoder
+This repository is from a personal project to re-implement the handwriting decoder developed by Willet *et al* in their repository [handwritingBCI](https://github.com/fwillett/handwritingBCI), using PyTorch. The data used here is from their publicly available dataset linked in their repository. Future steps will also include using an updated warping library, since the time-warping repository they used is considered outdated by the authors.
