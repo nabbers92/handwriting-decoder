@@ -1,0 +1,17 @@
+name: hw-bci
+channels:
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - numpy
+  - ipywidgets
+  - ipython
+  - ipykernel
+  - scipy
+  - jupyterlab
+  - pytorch-lightning
+  - scikit-learn
+prefix: /Users/colin/miniconda3/envs/hw-bci
