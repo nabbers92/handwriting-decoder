@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "handwriting-decoder"
+version = "0.1.0"
+description = "Recurrent Network to Decode Handwriting"
+authors = ["Colin McNabb <mcnabb.colin.lee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "handwriting_decoder"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, < 3.13"
+torch = ">=2.0"
+numpy = "^1.25.0"
+scipy = "^1.10.1"
+jupyter = "^1.0.0"
+plotly = "^5.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
