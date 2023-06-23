@@ -1,17 +1,16 @@
-name: hw-bci
+name: torch
 channels:
-  - defaults
+  - conda-forge
 dependencies:
+  - python=3.10
   - pytorch
   - torchvision
   - torchaudio
-  - matplotlib
-  - numpy
-  - ipywidgets
-  - ipython
-  - ipykernel
+  - pytorch-cuda=11.7
+  - ca-certificates
+  - openssl
+  - jupyter
+  - certifi
   - scipy
-  - jupyterlab
-  - pytorch-lightning
-  - scikit-learn
-prefix: /Users/colin/miniconda3/envs/hw-bci
+  - numpy=1.23.5
+prefix: /home/cmcnabb/mambaforge/envs/torch
