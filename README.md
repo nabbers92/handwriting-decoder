@@ -2,5 +2,3 @@
 This repository contains the basic handwriting decoder model, as well as the required utilities to create training and testing data. This prototype depends on the publicly available Stanford dataset, and would require the folder *handwritingBCIData* to be copied into this root directory. The packages installed, with specific versions where necessary, are contained in the *environment.yml* file and can be used with conda to recreate the environment used in testing. 
 
 To use the files, first run the *createTrainingData.py* script in the *src* subdirectory, and then run the *modelTraining.py* script in the *example* subdirectory. Similarly, for the inference example, run the *createTestingData.py* scipt in the *src* subdirectory, and then run the *modelInference.py* scipt in the *example* subdirectory.
-
-This was done towards the end of my internship, and I would like to apologize in advance for any bad coding practices found throughout.
