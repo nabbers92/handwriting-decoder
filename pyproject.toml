@@ -13,6 +13,7 @@ numpy = "^1.25.0"
 scipy = "^1.10.1"
 jupyter = "^1.0.0"
 plotly = "^5.15.0"
+pytorch-lightning = "^2.0.4"
 
 
 [build-system]
